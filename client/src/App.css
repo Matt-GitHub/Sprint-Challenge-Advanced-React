@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+.flex {
+  width: 15%;
+  border: 2px solid blue;
+  margin: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
